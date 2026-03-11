@@ -1,0 +1,14 @@
+[project]
+name = "risk-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.135.1",
+    "httpx>=0.28.1",
+    "langchain>=1.2.11",
+    "langchain-openai>=1.1.11",
+    "pydantic-settings>=2.13.1",
+    "uvicorn>=0.41.0",
+]
