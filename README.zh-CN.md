@@ -2,6 +2,8 @@
 
 ![KerryChainGuard 中文](./assets/web3kerryguard.png)
 
+**项目创作者：** Telegram `@kerryzheng`
+
 [English README](./README.md)
 
 KerryChainGuard 是一个轻量化的 Web3 安全助手。

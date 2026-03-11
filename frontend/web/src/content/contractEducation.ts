@@ -1,3 +1,5 @@
+// KerryChainGuard educational content.
+// Project Creator: Telegram @kerryzheng
 export type SupportedLanguage = "en" | "zh-CN";
 
 export type EducationItem = {

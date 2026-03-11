@@ -10,6 +10,14 @@ settings = get_settings()
 app = FastAPI(
     title=settings.app_name,
     version="0.1.0",
+    description=(
+        "KerryChainGuard backend service. "
+        "Project Creator: Telegram @kerryzheng"
+    ),
+    contact={
+        "name": "Kerry Zheng",
+        "url": "https://t.me/kerryzheng",
+    },
 )
 
 origins = [item.strip() for item in settings.cors_allow_origins.split(",") if item]

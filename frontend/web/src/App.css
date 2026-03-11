@@ -312,6 +312,14 @@ pre {
   overflow-wrap: anywhere;
 }
 
+.creatorFooter {
+  margin-top: 14px;
+  text-align: center;
+  font-size: 13px;
+  color: #475569;
+  opacity: 0.95;
+}
+
 @media (max-width: 640px) {
   .container {
     padding: 18px 12px 32px;

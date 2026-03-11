@@ -2,6 +2,8 @@
 
 ![KerryChainGuard EN](./assets/web3kerryguard_en.png)
 
+**Project Creator:** Telegram `@kerryzheng`
+
 [中文文档 (Chinese README)](./README.zh-CN.md)
 
 KerryChainGuard is a lightweight Web3 safety assistant for daily users.

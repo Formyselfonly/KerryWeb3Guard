@@ -7,6 +7,7 @@ import remarkGfm from "remark-gfm";
 import { getContractEducationContent } from "./content/contractEducation";
 import "./App.css";
 
+// Project Creator: Telegram @kerryzheng
 type ModuleKey = "contract" | "link" | "chat" | "learn" | "blacklist";
 type Language = "en" | "zh-CN";
 type NumberOrNull = number | null;
@@ -576,6 +577,12 @@ function App() {
           <pre>{JSON.stringify(blacklist, null, 2)}</pre>
         </section>
       )}
+
+      <footer className="creatorFooter">
+        {language === "zh-CN"
+          ? "项目创作者：Telegram @kerryzheng"
+          : "Project Creator: Telegram @kerryzheng"}
+      </footer>
     </main>
   );
 }
