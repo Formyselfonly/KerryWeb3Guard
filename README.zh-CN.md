@@ -1,5 +1,7 @@
 # KerryChainGuard
 
+![KerryChainGuard 中文](./assets/web3kerryguard.png)
+
 [English README](./README.md)
 
 KerryChainGuard 是一个轻量化的 Web3 安全助手。
