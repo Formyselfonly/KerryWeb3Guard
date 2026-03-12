@@ -1,12 +1,13 @@
-# KerryChainGuard
+# KerryWeb3Guard
 
-![KerryChainGuard EN](./assets/web3kerryguard_en.png)
+![KerryWeb3Guard EN](./assets/web3kerryguard_en.png)
 
 **Project Creator:** Telegram `@kerryzheng`
 
 [中文文档 (Chinese README)](./README.zh-CN.md)
+https://t.me/@kerryweb3guard
 
-KerryChainGuard is a lightweight Web3 safety assistant for daily users.
+KerryWeb3Guard is a lightweight Web3 safety assistant for daily users.
 It helps users in five core scenarios:
 
 - Contract interaction risk
@@ -288,7 +289,7 @@ Suggested request extension for all endpoints:
 
 ## Important Disclaimer
 
-KerryChainGuard provides risk hints only.
+KerryWeb3Guard provides risk hints only.
 It is not financial advice or legal advice.
 Users should still verify information independently before any wallet
 connection, signature, approval, or transfer.
