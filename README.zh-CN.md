@@ -5,7 +5,7 @@
 **项目创作者：** Telegram `@kerryzheng`
 
 [English README](./README.md)
-https://t.me/@kerryweb3guard
+[访问链接](https://t.me/@kerryweb3guard)
 
 KerryWeb3Guard 是一个轻量化的 Web3 安全助手。
 它帮助用户覆盖五个核心场景：
