@@ -3,6 +3,7 @@
 ![KerryWeb3Guard EN](./assets/web3kerryguard_en.png)
 
 **Project Creator:** Telegram `@kerryzheng`
+
 [Link](https://t.me/@kerryweb3guard)
 
 [中文文档 (Chinese README)](./README.zh-CN.md)
