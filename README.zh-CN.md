@@ -6,7 +6,7 @@
 
 [English README](./README.md)
 
-[在线体验](https://t.me/KerryWeb3GuardBot)
+[在线完整版](https://t.me/KerryWeb3GuardBot)
 
 KerryWeb3Guard 是一个轻量化的 Web3 安全助手。
 它帮助用户覆盖五个核心场景：
