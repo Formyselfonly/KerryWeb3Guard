@@ -4,7 +4,7 @@
 
 **Project Creator:** Telegram `@kerryzheng`
 
-[Online Link](https://t.me/@kerryweb3guard)
+[Online Link](https://t.me/KerryWeb3GuardBot)
 
 [中文文档 (Chinese README)](./README.zh-CN.md)
 
