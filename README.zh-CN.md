@@ -1,12 +1,13 @@
-# KerryChainGuard
+# KerryWeb3Guard
 
-![KerryChainGuard 中文](./assets/web3kerryguard.png)
+![KerryWeb3Guard 中文](./assets/web3kerryguard.png)
 
 **项目创作者：** Telegram `@kerryzheng`
 
 [English README](./README.md)
+https://t.me/@kerryweb3guard
 
-KerryChainGuard 是一个轻量化的 Web3 安全助手。
+KerryWeb3Guard 是一个轻量化的 Web3 安全助手。
 它帮助用户覆盖五个核心场景：
 
 - 合约交互风险
@@ -285,7 +286,7 @@ npm run dev
 
 ## 免责声明
 
-KerryChainGuard 仅提供风险提示，不构成投资建议或法律建议。
+KerryWeb3Guard 仅提供风险提示，不构成投资建议或法律建议。
 在进行钱包连接、签名、授权、转账前，用户仍需自行核验。
 
 黑名单记录基于用户提交证据与人工审核结果。为降低误伤风险，
