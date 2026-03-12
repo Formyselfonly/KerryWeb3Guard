@@ -3,9 +3,9 @@
 ![KerryWeb3Guard EN](./assets/web3kerryguard_en.png)
 
 **Project Creator:** Telegram `@kerryzheng`
+[Link](https://t.me/@kerryweb3guard)
 
 [中文文档 (Chinese README)](./README.zh-CN.md)
-[Link](https://t.me/@kerryweb3guard)
 
 KerryWeb3Guard is a lightweight Web3 safety assistant for daily users.
 It helps users in five core scenarios:
