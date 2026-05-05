@@ -11,7 +11,7 @@ app = FastAPI(
     title=settings.app_name,
     version="0.1.0",
     description=(
-        "KerryWeb3Guard backend service. "
+        "KerryChainGuard backend service. "
         "Project Creator: Telegram @kerryzheng"
     ),
     contact={

@@ -11,7 +11,7 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-    app_name: str = "KerryWeb3Guard Risk Service"
+    app_name: str = "KerryChainGuard Risk Service"
     app_env: str = "development"
     app_host: str = "0.0.0.0"
     app_port: int = 8000

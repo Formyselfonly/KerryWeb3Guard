@@ -1,1 +1,1 @@
-"""KerryWeb3Guard backend application package."""
+"""KerryChainGuard backend application package."""
