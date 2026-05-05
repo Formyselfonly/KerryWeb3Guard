@@ -1,4 +1,4 @@
-// KerryChainGuard educational content.
+// KerryWeb3Guard educational content.
 // Project Creator: Telegram @kerryzheng
 export type SupportedLanguage = "en" | "zh-CN";
 

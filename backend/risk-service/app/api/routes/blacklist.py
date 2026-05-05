@@ -24,6 +24,7 @@ async def list_blacklist_cases() -> list[BlacklistCase]:
     return blacklist_service.list_cases()
 
 
+
 @router.patch("/{case_id}", response_model=BlacklistCase)
 async def review_blacklist_case(
     case_id: str,

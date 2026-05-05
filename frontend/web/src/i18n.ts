@@ -4,7 +4,7 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   en: {
     translation: {
-      appTitle: "KerryChainGuard",
+      appTitle: "KerryWeb3Guard",
       appSubtitle: "Web3 Safety Assistant",
       language: "Language",
       runAnalysis: "Run",
@@ -48,7 +48,7 @@ const resources = {
   },
   "zh-CN": {
     translation: {
-      appTitle: "KerryChainGuard",
+      appTitle: "KerryWeb3Guard",
       appSubtitle: "Web3 安全助手",
       language: "语言",
       runAnalysis: "开始分析",
