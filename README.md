@@ -1,6 +1,6 @@
 # KerryWeb3Guard
 
-![KerryWeb3Guard EN](./assets/web3kerryguard_en.png)
+![KerryWeb3Guard EN](web3kerryguard_en.png)
 
 **Project Creator:** Telegram `@kerryzheng`
 

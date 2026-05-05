@@ -1,6 +1,6 @@
 # KerryWeb3Guard
 
-![KerryWeb3Guard 中文](./assets/web3kerryguard.png)
+![KerryWeb3Guard 中文](web3kerryguard.png)
 
 **项目创作者：** Telegram `@kerryzheng`
 
