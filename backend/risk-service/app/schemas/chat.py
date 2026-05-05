@@ -4,7 +4,7 @@ from app.schemas.common import BaseScanResponse, Language
 
 
 class ChatScanRequest(BaseModel):
-    chat_text: str = Field(min_length=5)
+    chat_text: str = Field(min_length=2)
     response_language: Language = "en"
 
 

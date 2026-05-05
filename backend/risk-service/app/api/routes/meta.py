@@ -1,8 +1,18 @@
 import httpx
 from fastapi import APIRouter
 
+from app.core.anti_scam_guide import (
+    get_scam_pattern_playbook,
+    get_start_guide,
+    get_start_sections,
+)
 from app.core.settings import get_settings
-from app.schemas.meta import KeyCheckResult, KeyVerificationResponse
+from app.schemas.meta import (
+    KeyCheckResult,
+    KeyVerificationResponse,
+    ScamPatternPlaybookResponse,
+    StartGuideResponse,
+)
 
 router = APIRouter(prefix="/meta", tags=["meta"])
 
@@ -15,6 +25,23 @@ async def get_supported_chains() -> list[str]:
         for item in settings.dexscreener_supported_chains.split(",")
         if item.strip()
     ]
+
+
+@router.get("/anti-scam-guide", response_model=list[str])
+async def get_anti_scam_guide(language: str = "zh-CN") -> list[str]:
+    return get_start_guide(language=language)
+
+
+@router.get("/start-guide", response_model=StartGuideResponse)
+async def get_start_guide_payload(language: str = "zh-CN") -> StartGuideResponse:
+    payload = get_start_sections(language=language)
+    return StartGuideResponse(**payload)
+
+
+@router.get("/scam-playbook", response_model=ScamPatternPlaybookResponse)
+async def get_scam_playbook(language: str = "zh-CN") -> ScamPatternPlaybookResponse:
+    pattern_catalog = get_scam_pattern_playbook(language=language)
+    return ScamPatternPlaybookResponse(pattern_catalog=pattern_catalog)
 
 
 @router.get("/verify-keys", response_model=KeyVerificationResponse)

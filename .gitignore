@@ -10,7 +10,7 @@
 .env.*
 *.env.local
 !.env.example
-.env.template
+!.env.template
 
 # ---------- Python ----------
 __pycache__/
@@ -38,5 +38,6 @@ pnpm-debug.log*
 
 # ---------- Runtime / Temp ----------
 *.log
+logs/
 tmp/
 temp/
